@@ -5,7 +5,7 @@
     background:url('../img/into-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 30%;
 }
 @media screen and (max-width: 767px){
     .img-logo{
