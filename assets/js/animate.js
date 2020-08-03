@@ -1,4 +1,4 @@
-var typed4 = new Typed('#alternation', {
+var typed = new Typed('#alternation', {
     strings: ['jovens', 'praticos', 'inovadores', 'JT Squad'],
     typeSpeed: 30,
     backSpeed: 30,
