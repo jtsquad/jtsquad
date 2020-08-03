@@ -1,0 +1,17 @@
+.spanmain {
+    font-size: x-large;
+}
+.img-logo{
+    background:url('../img/into-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+@media screen and (max-width: 767px){
+    .img-logo{
+        background:url('../img/into-bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 80%;
+    }
+}
