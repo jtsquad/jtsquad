@@ -1,5 +1,5 @@
 var typed = new Typed('#alternation', {
-    strings: ['jovens', 'praticos', 'inovadores', 'JT Squad'],
+    strings: ['Inovação', 'Criatividade', 'Qualidade', 'JT Squad'],
     typeSpeed: 30,
     backSpeed: 30,
     backDelay: 1000,

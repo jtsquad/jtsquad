@@ -12,6 +12,13 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.010/css/all.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script|Roboto'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
+
 </head>
 
 <body id="page-top">
@@ -42,7 +49,7 @@
                         <span class="spanmain"><strong>Sistema web</strong><br></span>
                         <span class="spanmain"><strong>Blog</strong><br></span>
                         <span class="spanmain"><strong>SEO do seu site</strong></span><br>
-                        <span class="spanmain pt-1"><strong>Somos</strong></span>
+                        <span class="spanmain pt-1"><strong></strong></span>
                         <strong>
                             <span class="spanmain line" id="alternation"></span>
                         </strong><br>
@@ -150,7 +157,7 @@
                 <div class="col-md-4 col-lg-4 text-center">
                     <div class="mx-auto service-box mt-5"><i class="fa fa-laptop fa-4x text-primary mb-3 sr-icons" data-aos="zoom-in" data-aos-duration="200" data-aos-once="true"></i>
                         <h3 class="mb-3">Criação de Sites</h3>
-                        <!-- <p class="text-muted mb-0">shajshjahsjahjshajhsajhj</p> -->
+                        <!-- <p class="text-muted mb-0">nao apaga esse comment plz</p> -->
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 text-center">
@@ -189,32 +196,71 @@
         </div>
     </section>
     <!-- Portfolio -->
+    
     <section id="portfolio">
         <div class="container">
+            <div class="section-heading text-center">
+                <h2>Portfólio</h2>
+                <h3 class="section-subheading text-muted">Projetos Recentes</h3>
+            </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Portifolio</h2>
-                    <h3 class="section-subheading text-muted">Projetos Recentes</h3>
-                    <br>
-                    <br>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    
+                <div id="filter-btn" class="col-lg-12 button-group">
+                        <ul>
+                            <li><button class="btn btn-primary is-checked" data-filter="*">Todos</li>
+                            <li><button class="btn btn-primary" data-filter=".site">Criação de Site</button></li>
+                            <li><button class="btn btn-primary" data-filter=".loja">Loja Virtual</button></li>
+                            <li><button class="btn btn-primary" data-filter=".blog">Blog</button></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="img-grid">
+                <div class="img-container site" data-category="site">
+                    <img src="/assets/img/exsite.jpg" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="/assets/img/exsite.jpg">
+                        <div class="img-overlay-text">
+                            <p>Criação de Site</p>
+                            <h3>Briefeed</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container blog" data-category="blog">
+                    <img src="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522">
+                        <div class="img-overlay-text">
+                            <p>Blog</p>
+                            <h3>Em breve</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-container loja" data-category="loja">
+                    <img src="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522">
+                        <div class="img-overlay-text">
+                            <p>Loja Virtual</p>
+                            <h3>Em breve</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+  
+    
 <!-- Footer -->
     <section id="contact" class="content-section text-center">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2>Vamos trabalhar juntos?</h2>
-                    <p>Entre em contato e confira tudo o que a JT SQUAD pode fazer por você!</p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button" ><i class="fa fa-envelope fa-fw"></i><a href="mailto:jovemt.squad@gmail.com">Email</a></button></li>
-                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg btn-default" type="button"><i class="fa fa-github fa-fw"></i><a href="https://github.com/jtsquad" target="_blank">github</a></button></li>
-                    </ul>
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Vamos trabalhar juntos?</h2>
+                    <p class="mb-5">Entre em contato e confira tudo o que a JT SQUAD pode fazer por você!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center"><i class="fa fa-github fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
+                    <p><a href="https://github.com/jtsquad" target="_blank">Github</a></p>
+                </div>
+                <div class="col-lg-4 mr-auto text-center"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
+                    <p><a href="mailto:jovemt.squad@gmail.com">jovemt.squad@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -232,7 +278,14 @@
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/animate.js"></script>
-   
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script>
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js'></script>
+<script src="assets/js/port.js"></script>
+
 
 </body>
 
