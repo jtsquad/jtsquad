@@ -5,4 +5,4 @@ var typed = new Typed('#alternation', {
     backDelay: 1000,
     startDelay: 2000,
     loop: true
-});
+});     

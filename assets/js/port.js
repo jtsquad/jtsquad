@@ -53,5 +53,4 @@ var $grid = $('.img-grid').isotope({
     });
   });
   
-  
-  
+ 
