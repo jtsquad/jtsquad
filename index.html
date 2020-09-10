@@ -9,22 +9,19 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css'>
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.010/css/all.css'>
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dancing+Script|Roboto'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
-
+    <link rel="stylesheet" type="text/css" href="/assets/owlcarousel/owl.carousel.css">
 </head>
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">
-            <img src="assets/img/4.png" width="150" height="" alt="" loading="lazy">
+            <img src="/assets/img/4.png" width="150" height="" alt="" loading="lazy">
 
         </a><button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
                 value="Menu"><i class="fa fa-bars"></i></button>
@@ -67,7 +64,7 @@
                     <img src="assets/img/JT_squad_-_logo.png" alt="Logo da equipe JT SQUAD" class="img-fluid">
                 </div>
                 <div class="col-lg-6 mx-auto">
-                    <h2>JT SQUAD</h2>
+                    <!-- <h3>JT SQUAD</h3> -->
                     <p class="text-left"><strong>JT SQUAD</strong> é formado por mentes afiadas e criativas. Um híbrido de diferentes experiências e habilidades que trazem novas perspectivas e conhecimentos para cada projeto</p>
                     <p class="text-left">Criada em 2020 o <strong>JT SQUAD</strong> é um conjunto de programadores inovador que veio para proporcionar praticidade e qualidade para os seus clientes, prestando serviços de desenvolvimento web.</p>
                     <p class="text-left"><strong>JT SQUAD</strong> propõe-se inovar e agregar benefícios a seus clientes, tornando-se destaque como prestadora de serviços na área programação web aliando qualidade e excelência. Sempre visando realizar os serviços solicitados no menor prazo e com a melhor qualidade e com profissionais qualificados para garantir a satisfação dos clientes.
@@ -100,7 +97,7 @@
                         <div class="col-sm-12 col-md-3 col-lg-2">
                             <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/graci.png" width="100px">
                                 <h4>Gracilliano</h4>
-                                <p class="text-muted">Full-Stack</p>
+                                <p class="text-muted">Back-End</p>
                                 <ul class="list-inline social-buttons">
                                     <li class="list-inline-item"><a href="https://github.com/Anotso" target="_blank"><i class="fa fa-github"></i></a></li>
                                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/gracilliano-carvalho-168669107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -213,9 +210,10 @@
                         </ul>
                     </div>
             </div>
-             <div class="img-container site" data-category="site">
-                    <img src="assets/img/exsite.jpg" class="img-fluid">
-                    <div class="img-overlay popup-gallery" href="assets/img/exsite.jpg">
+            <div class="img-grid">
+                <div class="img-container site" data-category="site">
+                    <img src="/assets/img/exsite.jpg" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="/assets/img/exsite.jpg">
                         <div class="img-overlay-text">
                             <p>Criação de Site</p>
                             <h3>Briefeed</h3>
@@ -255,10 +253,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 ml-auto text-center"><i class="fa fa-github fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
+                <div class="col-lg-4 ml-auto text-center"><i class="fab fa-github fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-once="true"></i>
                     <p><a href="https://github.com/jtsquad" target="_blank">Github</a></p>
                 </div>
-                <div class="col-lg-4 mr-auto text-center"><i class="fa fa-envelope-o fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
+                <div class="col-lg-4 mr-auto text-center"><i class="fas fa-envelope fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
                     <p><a href="mailto:jovemt.squad@gmail.com">jovemt.squad@gmail.com</a></p>
                 </div>
             </div>
@@ -277,10 +275,12 @@
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/animate.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.1.min.js"
+  integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE="
+  crossorigin="anonymous"></script>
 <script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script>
 <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js'></script>
 <script src="assets/js/port.js"></script>
