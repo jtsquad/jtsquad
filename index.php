@@ -256,7 +256,7 @@
                     <p><a href="https://github.com/jtsquad" target="_blank">Github</a></p>
                 </div>
                 <div class="col-lg-4 mr-auto text-center"><i class="fas fa-envelope fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
-                    <p><a href="mailto:jovemt.squad@gmail.com">jovemt.squad@gmail.com</a></p>
+                    <p><a href="mailto:jovemt.squad@gmail.com">contato@jtsquad.com.br</a></p>
                 </div>
             </div>
         </div>
