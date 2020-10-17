@@ -205,35 +205,35 @@
                             <li><button class="btn btn-primary is-checked" data-filter="*">Todos</li>
                             <li><button class="btn btn-primary" data-filter=".site">Criação de Site</button></li>
                             <li><button class="btn btn-primary" data-filter=".loja">Loja Virtual</button></li>
-                            <li><button class="btn btn-primary" data-filter=".blog">Blog</button></li>
+                            <li><button class="btn btn-primary" data-filter=".sistema">Sistema Web</button></li>
                         </ul>
                     </div>
             </div>
             <div class="img-grid">
                 <div class="img-container site" data-category="site">
-                    <img src="/assets/img/exsite.jpg" class="img-fluid">
-                    <div class="img-overlay popup-gallery" href="/assets/img/exsite.jpg">
+                    <img src="assets/img/briefeed.png" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="assets/img/briefeed.png">
                         <div class="img-overlay-text">
                             <p>Criação de Site</p>
                             <h3>Briefeed</h3>
                         </div>
                     </div>
                 </div>
-                <div class="img-container blog" data-category="blog">
-                    <img src="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522" class="img-fluid">
-                    <div class="img-overlay popup-gallery" href="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522">
+                <div class="img-container loja" data-category="loja">
+                    <img src="assets/img/peck-grafica.png" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="assets/img/peck-grafica.png">
                         <div class="img-overlay-text">
-                            <p>Blog</p>
-                            <h3>Em breve</h3>
+                            <p>Loja Virtual</p>
+                            <h3>Peck Gráfica</h3>
                         </div>
                     </div>
                 </div>
-                <div class="img-container loja" data-category="loja">
-                    <img src="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522" class="img-fluid">
-                    <div class="img-overlay popup-gallery" href="https://media1.tenor.com/images/9fec871634f5cf9adae0226e73ac21a0/tenor.gif?itemid=14905522">
+                <div class="img-container sistema" data-category="loja">
+                    <img src="assets/img/sap.png" class="img-fluid">
+                    <div class="img-overlay popup-gallery" href="assets/img/sap.png">
                         <div class="img-overlay-text">
-                            <p>Loja Virtual</p>
-                            <h3>Em breve</h3>
+                            <p>Sistema Web</p>
+                            <h3>SAP</h3>
                         </div>
                     </div>
                 </div>
