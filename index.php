@@ -20,7 +20,7 @@
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">
-            <img src="/assets/img/4.png" width="150" height="" alt="" loading="lazy">
+            <img src="assets/img/4.png" width="150" height="" alt="" loading="lazy">
 
         </a><button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
                 value="Menu"><i class="fa fa-bars"></i></button>
@@ -78,8 +78,8 @@
                                 <h4>Danielle</h4>
                                 <p class="text-muted">Front-End</p>
                                 <ul class="list-inline social-buttons">
-                                    <li class="list-inline-item"><a href="https://github.com/DanielleRodrigues" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/daniellearodrigues/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/DanielleRodrigues" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/daniellearodrigues/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -88,18 +88,18 @@
                                 <h4>Emmanuel</h4>
                                 <p class="text-muted">Front-End</p>
                                 <ul class="list-inline social-buttons">
-                                    <li class="list-inline-item"><a href="https://github.com/oppa123" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/oppa123" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin" target="_blank"></i></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-3 col-lg-2">
                             <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/graci.png" width="100px">
                                 <h4>Gracilliano</h4>
-                                <p class="text-muted">Back-End</p>
+                                <p class="text-muted">Full-Stack</p>
                                 <ul class="list-inline social-buttons">
-                                    <li class="list-inline-item"><a href="https://github.com/Anotso" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/gracilliano-carvalho-168669107/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/Anotso" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/gracilliano-carvalho-168669107/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,8 +108,8 @@
                                 <h4>Guilherme</h4>
                                 <p class="text-muted">Front-End</p>
                                 <ul class="list-inline social-buttons">
-                                    <li class="list-inline-item"><a href="https://github.com/NewGuiih" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/guilherme-martins-18146a91/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/NewGuiih" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/guilherme-martins-18146a91/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -118,8 +118,8 @@
                                 <h4>Krislayne</h4>
                                 <p class="text-muted">Full-Stack</p>
                                 <ul class="list-inline social-buttons">
-                                    <li class="list-inline-item"><a href="https://github.com/KrisEgidio" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/krislayne-egidio" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/KrisEgidio" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/krislayne-egidio" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -128,8 +128,8 @@
                                 <h4>Matheus</h4>
                                 <p class="text-muted">Full-Stack</p>
                                 <ul class="list-inline social-buttons">
-                                    <li class="list-inline-item"><a href="https://github.com/aeusteixeira" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/matheustx" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://github.com/aeusteixeira" target="_blank"><i class="fab fa-github"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/matheustx" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                         </div>
