@@ -89,7 +89,7 @@
                                 <p class="text-muted">Front-End</p>
                                 <ul class="list-inline social-buttons">
                                     <li class="list-inline-item"><a href="https://github.com/oppa123" target="_blank"><i class="fab fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin" target="_blank"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/emmanuel-tiburcio-0b5115b4/" target="_blank"><i class="fab fa-linkedin" target="_blank"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -256,7 +256,7 @@
                     <p><a href="https://github.com/jtsquad" target="_blank">Github</a></p>
                 </div>
                 <div class="col-lg-4 mr-auto text-center"><i class="fas fa-envelope fa-3x mb-3 sr-contact" data-aos="zoom-in" data-aos-duration="300" data-aos-delay="300" data-aos-once="true"></i>
-                    <p><a href="mailto:jovemt.squad@gmail.com">contato@jtsquad.com.br</a></p>
+                    <p><a href="mailto:contato@jtsquad.com.br">contato@jtsquad.com.br</a></p>
                 </div>
             </div>
         </div>
