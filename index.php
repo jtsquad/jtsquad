@@ -89,7 +89,7 @@
                                 <p class="text-muted">Front-End</p>
                                 <ul class="list-inline social-buttons">
                                     <li class="list-inline-item"><a href="https://github.com/oppa123" target="_blank"><i class="fab fa-github"></i></a></li>
-                                    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin" target="_blank"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/emmanuel-tiburcio-0b5115b4/" target="_blank"><i class="fab fa-linkedin" target="_blank"></i></a></li>
                                 </ul>
                             </div>
                         </div>
